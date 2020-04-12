@@ -10,6 +10,7 @@
 
 #include <array>
 #include <gst/video/video.h>
+#include <string>
 
 class PythonCallback {
     PyObjectWrapper py_function;

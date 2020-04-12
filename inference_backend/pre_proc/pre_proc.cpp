@@ -7,6 +7,7 @@
 #include "inference_backend/pre_proc.h"
 #include "config.h"
 #include <functional>
+#include <algorithm>
 
 namespace InferenceBackend {
 

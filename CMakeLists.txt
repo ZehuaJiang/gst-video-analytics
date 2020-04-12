@@ -32,6 +32,8 @@ endif()
 
 set(PRODUCT_VERSION ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH})
 set(PLUGIN_VERSION ${PRODUCT_VERSION}.${GIT_INFO})
+link_directories(/usr/local/lib)
+
 # Propagate version to plugins
 add_definitions(-DPLUGIN_VERSION="${PLUGIN_VERSION}")
 add_definitions(-DPACKAGE="gst-video-analytics")

@@ -7,6 +7,7 @@
 
 #include <Python.h>
 #include <stdexcept>
+#include <string>
 
 #include <gst/gst.h>
 

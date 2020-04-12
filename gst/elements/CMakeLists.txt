@@ -124,4 +124,4 @@ else()
         message("Kafka support will not be available. Ensure required libraries (librdkafka) are installed, and rebuild plugin with -DKAFKA=1 before attempting to use Kafka")
 endif()
 
-add_subdirectory(gvapython)
+#add_subdirectory(gvapython)
